@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tanay_gupta_portfolio">
+    package="com.tandroidapps.tanay_gupta_portfolio">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="tanay_gupta_portfolio"
-        android:name="${applicationName}"
+        android:name="Tanay's Portfolio"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
