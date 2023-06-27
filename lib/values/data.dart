@@ -212,10 +212,12 @@ class Data {
   static List<ProjectItemData> recentWorks = [
     Projects.AILAAN_APP,
     Projects.LAZYSHARE,
+    Projects.NOTIFYX,
   ];
 
   static List<ProjectItemData> projects = [
     Projects.AILAAN_APP,
+    Projects.NOTIFYX,
     Projects.LAZYSHARE,
   ];
 
@@ -285,6 +287,35 @@ class Projects {
     technologyUsed: StringConst.FLUTTER,
     gitHubUrl: StringConst.AILAAN_APP_GITHUB_URL,
     playStoreUrl: StringConst.AILAAN_APP_PLAYSTORE_URL,
+  );
+
+  static ProjectItemData NOTIFYX = ProjectItemData(
+    title: StringConst.NOTIFYX,
+    subtitle: StringConst.NOTIFYX,
+    platform: StringConst.NOTIFYX_PLATFORM,
+    primaryColor: AppColors.nimbus,
+    image: ImagePath.NOTIFYX_COVER,
+    coverUrl: ImagePath.NOTIFYX_SCREENS,
+    navSelectedTitleColor: AppColors.nimbusNavTitle,
+    appLogoColor: AppColors.nimbusSelectedNavTitle,
+    projectAssets: [
+      // ImagePath.NOTIFYX_1,
+      ImagePath.NOTIFYX_2,
+      ImagePath.NOTIFYX_3,
+      ImagePath.NOTIFYX_4,
+      ImagePath.NOTIFYX_5,
+      ImagePath.NOTIFYX_6,
+      ImagePath.NOTIFYX_7,
+      ImagePath.NOTIFYX_8,
+      ImagePath.NOTIFYX_9,
+    ],
+    category: StringConst.NOTIFYX_CATEGORY,
+    portfolioDescription: StringConst.NOTIFYX_DETAIL,
+    isPublic: true,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.NOTIFYX_GITHUB_URL,
+    playStoreUrl: StringConst.NOTIFYX_PLAYSTORE_URL,
   );
 
   static ProjectItemData LAZYSHARE = ProjectItemData(

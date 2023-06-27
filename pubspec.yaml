@@ -79,6 +79,10 @@ flutter:
     - assets/images/projects/
     - assets/images/projects/ailaan/
     - assets/images/projects/lazyshare/
+    - assets/images/projects/cititzensafety/
+    - assets/images/projects/datingappauth/
+    - assets/images/projects/notifyx/
+    - assets/images/projects/thesocialapp/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

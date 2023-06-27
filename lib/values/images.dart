@@ -59,4 +59,17 @@ class ImagePath {
   static const String LAZYSHARE_5 = "$projectsDir/lazyshare/5.png";
   static const String LAZYSHARE_6 = "$projectsDir/lazyshare/6.png";
   static const String LAZYSHARE_7 = "$projectsDir/lazyshare/7.png";
+
+  //notifyx
+  static const String NOTIFYX_COVER = "$projectsDir/notifyx/1.png";
+  static const String NOTIFYX_SCREENS = "$projectsDir/notifyx/1.png";
+  static const String NOTIFYX_1 = "$projectsDir/notifyx/1.png";
+  static const String NOTIFYX_2 = "$projectsDir/notifyx/2.png";
+  static const String NOTIFYX_3 = "$projectsDir/notifyx/3.png";
+  static const String NOTIFYX_4 = "$projectsDir/notifyx/4.png";
+  static const String NOTIFYX_5 = "$projectsDir/notifyx/5.png";
+  static const String NOTIFYX_6 = "$projectsDir/notifyx/6.png";
+  static const String NOTIFYX_7 = "$projectsDir/notifyx/7.png";
+  static const String NOTIFYX_8 = "$projectsDir/notifyx/6.png";
+  static const String NOTIFYX_9 = "$projectsDir/notifyx/7.png";
 }

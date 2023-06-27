@@ -244,6 +244,19 @@ class StringConst {
   static const String LAZYSHARE_GITHUB_URL =
       "https://github.com/Tanay-Gupta/LazyShare";
 
+// NOTIFIX APP
+  static const String NOTIFYX = "NotifyX";
+  static const String NOTIFYX_PLATFORM = "Android.";
+  static const String NOTIFYX_CATEGORY = "Toolkit & Education";
+  static const String NOTIFYX_SUBTITLE =
+      "Want to save time while dealing with boomers at your nearest cyber cafes?";
+  static const String NOTIFYX_DETAIL =
+      "Notifyx is a college app that helps students stay organized and informed.Notifyx is built using Flutter and Firebase, so it's fast, reliable, and secure. And since it's cloud-based, you can access it from anywhere. Whether you're a first-year student or a seasoned veteran, Notifyx is the perfect app to help you stay on top of your college life. ";
+
+  static const String NOTIFYX_PLAYSTORE_URL = "";
+  static const String NOTIFYX_GITHUB_URL =
+      "https://github.com/Tanay-Gupta/NotifyxCollegeApp";
+
   //-----------------------------------------------Noteworthy Projects-----------------------------------------
 //https://github.com/Tanay-Gupta/LeetCodeSubmissions
 
