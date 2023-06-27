@@ -222,7 +222,7 @@ class StringConst {
 //Ailaan App
   static const String AILAAN_APP = "Ailaan";
   static const String AILAAN_APP_PLATFORM = "Android.";
-  static const String AILAAN_APP_CATEGORY = "Education";
+  static const String AILAAN_APP_CATEGORY = "Flutter";
   static const String AILAAN_APP_SUBTITLE =
       "Your one-stop shop for coding contest news, schedules, and reminders.";
   static const String AILAAN_APP_DETAIL =
@@ -230,6 +230,19 @@ class StringConst {
   static const String AILAAN_APP_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=com.tandroidapps.Ailaan";
   static const String AILAAN_APP_GITHUB_URL = "";
+
+//lazyshare app
+  static const String LAZYSHARE = "LazyShare";
+  static const String LAZYSHARE_PLATFORM = "Android.";
+  static const String LAZYSHARE_CATEGORY = "Toolkit";
+  static const String LAZYSHARE_SUBTITLE =
+      "Want to save time while dealing with boomers at your nearest cyber cafes?";
+  static const String LAZYSHARE_DETAIL =
+      "LazyShare helps you to chat with someone directly on WhatsApp without saving phone numbers. Just enter their phone number and you're ready to go.";
+  static const String LAZYSHARE_PLAYSTORE_URL =
+      "https://play.google.com/store/apps/details?id=com.tandroidapps.lazyshare";
+  static const String LAZYSHARE_GITHUB_URL =
+      "https://github.com/Tanay-Gupta/LazyShare";
 
   //-----------------------------------------------Noteworthy Projects-----------------------------------------
 //https://github.com/Tanay-Gupta/LeetCodeSubmissions

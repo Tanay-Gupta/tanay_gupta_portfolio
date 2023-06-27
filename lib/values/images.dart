@@ -48,4 +48,15 @@ class ImagePath {
   static const String AILAAN_APP_5 = "$projectsDir/ailaan/5.png";
   static const String AILAAN_APP_6 = "$projectsDir/ailaan/6.png";
   static const String AILAAN_APP_7 = "$projectsDir/ailaan/7.png";
+
+  //lazyshare
+  static const String LAZYSHARE_COVER = "$projectsDir/lazyshare/1.png";
+  static const String LAZYSHARE_SCREENS = "$projectsDir/lazyshare/1.png";
+  static const String LAZYSHARE_1 = "$projectsDir/lazyshare/1.png";
+  static const String LAZYSHARE_2 = "$projectsDir/lazyshare/2.png";
+  static const String LAZYSHARE_3 = "$projectsDir/lazyshare/3.png";
+  static const String LAZYSHARE_4 = "$projectsDir/lazyshare/4.png";
+  static const String LAZYSHARE_5 = "$projectsDir/lazyshare/5.png";
+  static const String LAZYSHARE_6 = "$projectsDir/lazyshare/6.png";
+  static const String LAZYSHARE_7 = "$projectsDir/lazyshare/7.png";
 }

@@ -211,10 +211,12 @@ class Data {
 
   static List<ProjectItemData> recentWorks = [
     Projects.AILAAN_APP,
+    Projects.LAZYSHARE,
   ];
 
   static List<ProjectItemData> projects = [
     Projects.AILAAN_APP,
+    Projects.LAZYSHARE,
   ];
 
   static List<NoteWorthyProjectDetails> noteworthyProjects = [
@@ -283,5 +285,32 @@ class Projects {
     technologyUsed: StringConst.FLUTTER,
     gitHubUrl: StringConst.AILAAN_APP_GITHUB_URL,
     playStoreUrl: StringConst.AILAAN_APP_PLAYSTORE_URL,
+  );
+
+  static ProjectItemData LAZYSHARE = ProjectItemData(
+    title: StringConst.LAZYSHARE,
+    subtitle: StringConst.LAZYSHARE,
+    platform: StringConst.LAZYSHARE_PLATFORM,
+    primaryColor: AppColors.nimbus,
+    image: ImagePath.LAZYSHARE_COVER,
+    coverUrl: ImagePath.LAZYSHARE_SCREENS,
+    navSelectedTitleColor: AppColors.nimbusNavTitle,
+    appLogoColor: AppColors.nimbusSelectedNavTitle,
+    projectAssets: [
+      // ImagePath.LAZYSHARE_1,
+      ImagePath.LAZYSHARE_2,
+      ImagePath.LAZYSHARE_3,
+      ImagePath.LAZYSHARE_4,
+      ImagePath.LAZYSHARE_5,
+      ImagePath.LAZYSHARE_6,
+      ImagePath.LAZYSHARE_7,
+    ],
+    category: StringConst.LAZYSHARE_CATEGORY,
+    portfolioDescription: StringConst.LAZYSHARE_DETAIL,
+    isPublic: true,
+    isOnPlayStore: true,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.LAZYSHARE_GITHUB_URL,
+    playStoreUrl: StringConst.LAZYSHARE_PLAYSTORE_URL,
   );
 }
