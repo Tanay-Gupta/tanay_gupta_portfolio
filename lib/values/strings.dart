@@ -257,6 +257,43 @@ class StringConst {
   static const String NOTIFYX_GITHUB_URL =
       "https://github.com/Tanay-Gupta/NotifyxCollegeApp";
 
+//THE SOCIAL APP
+  static const String SOCIALAPP = "The Social App";
+  static const String SOCIALAPP_PLATFORM = "Android.";
+  static const String SOCIALAPP_CATEGORY = "Social Media";
+  static const String SOCIALAPP_SUBTITLE =
+      "Share your story, share your world.";
+  static const String SOCIALAPP_DETAIL =
+      "The Social App is built using Flutter, a modern cross-platform framework that allows developers to build beautiful, high-performance apps for both iOS and Android. The app is also built using Dart, a modern programming language that is fast, expressive, and scalable. And, the app uses JavaScript for some of its functionality, such as the chat feature. \n Socialite is a powerful and versatile social media app that is built using the latest technologies. If you're looking for a social media app that is both beautiful and functional, then Socialite is the perfect choice for you.";
+
+  static const String SOCIALAPP_PLAYSTORE_URL = "";
+  static const String SOCIALAPP_GITHUB_URL =
+      "https://github.com/Tanay-Gupta/The-Social-App";
+
+//CITIZEN SAFETY
+  static const String CITIZENSAFETY = "Citizen safety app (UI)";
+  static const String CITIZENSAFETY_PLATFORM = "Android.";
+  static const String CITIZENSAFETY_CATEGORY = "Toolkit";
+  static const String CITIZENSAFETY_SUBTITLE =
+      "Kavach: Protect yourself from cybercrime.";
+  static const String CITIZENSAFETY_DETAIL =
+      "Citizen safety app (UI). This App was developed during Kavach Hackathon. This App helps to flag malicious/ fraud indicatorsin real-time.The app will search the  Mobile Number,SMS header, url links  related data through the given database of suspects as fraud provided by Indian Cyber Crime Coordination Center(currently demo data)in real time. Through SVM algorithms in ML, live tracking and prediction of malicious data will be done through the app for the data which is not present in the database. On finding suspected link, number, header, UPI address etc. the app will notify the user before accessing that particular data and even it will provide option to mark as 'fraud' . This mark can be used for updation in database";
+  static const String CITIZENSAFETY_PLAYSTORE_URL = "";
+  static const String CITIZENSAFETY_GITHUB_URL =
+      "https://github.com/Tanay-Gupta/CitizenSafetyApp";
+
+//DATING APP UI
+  static const String DATINGAPP = "Dating App Authentication UI";
+  static const String DATINGAPP_PLATFORM = "Android.";
+  static const String DATINGAPP_CATEGORY = "Social";
+  static const String DATINGAPP_SUBTITLE = "Simple and elegant UI";
+  static const String DATINGAPP_DETAIL =
+      "This Flutter app provides a simple and elegant way to authenticate users into a dating app. The app consists of three screens: login, signup, and welcome.\nThe login screen allows users to sign in with their email address and password. The signup screen allows users to create a new account by providing their email address, password, and other personal information. The welcome screen shows options for login or signup, so users can easily switch between the two.\nThe app uses a modern and minimalist design that is both easy to use and visually appealing.";
+
+  static const String DATINGAPP_PLAYSTORE_URL = "";
+  static const String DATINGAPP_GITHUB_URL =
+      "https://github.com/Tanay-Gupta/DatingAppAuthenticationUi";
+
   //-----------------------------------------------Noteworthy Projects-----------------------------------------
 //https://github.com/Tanay-Gupta/LeetCodeSubmissions
 

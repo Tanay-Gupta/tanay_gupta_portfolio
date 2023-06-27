@@ -211,14 +211,20 @@ class Data {
 
   static List<ProjectItemData> recentWorks = [
     Projects.AILAAN_APP,
-    Projects.LAZYSHARE,
     Projects.NOTIFYX,
+    Projects.SOCIALAPP,
+    Projects.CITIZENSAFETY,
+    Projects.LAZYSHARE,
+    Projects.DATINGAPP,
   ];
 
   static List<ProjectItemData> projects = [
     Projects.AILAAN_APP,
     Projects.NOTIFYX,
+    Projects.SOCIALAPP,
+    Projects.CITIZENSAFETY,
     Projects.LAZYSHARE,
+    Projects.DATINGAPP,
   ];
 
   static List<NoteWorthyProjectDetails> noteworthyProjects = [
@@ -293,11 +299,11 @@ class Projects {
     title: StringConst.NOTIFYX,
     subtitle: StringConst.NOTIFYX,
     platform: StringConst.NOTIFYX_PLATFORM,
-    primaryColor: AppColors.nimbus,
+    primaryColor: AppColors.notifyxcolor,
     image: ImagePath.NOTIFYX_COVER,
     coverUrl: ImagePath.NOTIFYX_SCREENS,
-    navSelectedTitleColor: AppColors.nimbusNavTitle,
-    appLogoColor: AppColors.nimbusSelectedNavTitle,
+    navSelectedTitleColor: AppColors.notifyxSelectedNavTitle,
+    appLogoColor: AppColors.notifyxSelectedNavTitle,
     projectAssets: [
       // ImagePath.NOTIFYX_1,
       ImagePath.NOTIFYX_2,
@@ -322,11 +328,11 @@ class Projects {
     title: StringConst.LAZYSHARE,
     subtitle: StringConst.LAZYSHARE,
     platform: StringConst.LAZYSHARE_PLATFORM,
-    primaryColor: AppColors.nimbus,
+    primaryColor: AppColors.notifyxcolor,
     image: ImagePath.LAZYSHARE_COVER,
     coverUrl: ImagePath.LAZYSHARE_SCREENS,
-    navSelectedTitleColor: AppColors.nimbusNavTitle,
-    appLogoColor: AppColors.nimbusSelectedNavTitle,
+    navSelectedTitleColor: AppColors.notifyxSelectedNavTitle,
+    appLogoColor: AppColors.notifyxSelectedNavTitle,
     projectAssets: [
       // ImagePath.LAZYSHARE_1,
       ImagePath.LAZYSHARE_2,
@@ -343,5 +349,72 @@ class Projects {
     technologyUsed: StringConst.FLUTTER,
     gitHubUrl: StringConst.LAZYSHARE_GITHUB_URL,
     playStoreUrl: StringConst.LAZYSHARE_PLAYSTORE_URL,
+  );
+
+  static ProjectItemData SOCIALAPP = ProjectItemData(
+    title: StringConst.SOCIALAPP,
+    subtitle: StringConst.SOCIALAPP,
+    platform: StringConst.SOCIALAPP_PLATFORM,
+    primaryColor: AppColors.socialappcolor,
+    image: ImagePath.SOCIALAPP_COVER,
+    coverUrl: ImagePath.SOCIALAPP_SCREENS,
+    navSelectedTitleColor: AppColors.socialappcolor,
+    appLogoColor: AppColors.socialappcolor,
+    projectAssets: [
+      // ImagePath.SOCIALAPP_1,
+      ImagePath.SOCIALAPP_2,
+      ImagePath.SOCIALAPP_3,
+      ImagePath.SOCIALAPP_4,
+    ],
+    category: StringConst.SOCIALAPP_CATEGORY,
+    portfolioDescription: StringConst.SOCIALAPP_DETAIL,
+    isPublic: true,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.SOCIALAPP_GITHUB_URL,
+    playStoreUrl: StringConst.SOCIALAPP_PLAYSTORE_URL,
+  );
+
+  static ProjectItemData CITIZENSAFETY = ProjectItemData(
+    title: StringConst.CITIZENSAFETY,
+    subtitle: StringConst.CITIZENSAFETY,
+    platform: StringConst.CITIZENSAFETY_PLATFORM,
+    primaryColor: AppColors.citizencolor,
+    image: ImagePath.CITIZENSAFETY_COVER,
+    coverUrl: ImagePath.CITIZENSAFETY_SCREENS,
+    navSelectedTitleColor: AppColors.citizenNavTitle,
+    appLogoColor: AppColors.citizenSelectedNavTitle,
+    projectAssets: [
+      // ImagePath.CITIZENSAFETY_1,
+    ],
+    category: StringConst.CITIZENSAFETY_CATEGORY,
+    portfolioDescription: StringConst.CITIZENSAFETY_DETAIL,
+    isPublic: true,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.CITIZENSAFETY_GITHUB_URL,
+    playStoreUrl: StringConst.CITIZENSAFETY_PLAYSTORE_URL,
+  );
+
+  static ProjectItemData DATINGAPP = ProjectItemData(
+    title: StringConst.DATINGAPP,
+    subtitle: StringConst.DATINGAPP,
+    platform: StringConst.DATINGAPP_PLATFORM,
+    primaryColor: AppColors.datingcolor,
+    image: ImagePath.DATINGAPP_COVER,
+    coverUrl: ImagePath.DATINGAPP_SCREENS,
+    navSelectedTitleColor: AppColors.datingcolorNavTitle,
+    appLogoColor: AppColors.datingcolorNavTitle,
+    projectAssets: [
+      // ImagePath.DATINGAPP_1,
+      ImagePath.DATINGAPP_2,
+    ],
+    category: StringConst.DATINGAPP_CATEGORY,
+    portfolioDescription: StringConst.DATINGAPP_DETAIL,
+    isPublic: true,
+    isOnPlayStore: false,
+    technologyUsed: StringConst.FLUTTER,
+    gitHubUrl: StringConst.DATINGAPP_GITHUB_URL,
+    playStoreUrl: StringConst.DATINGAPP_PLAYSTORE_URL,
   );
 }

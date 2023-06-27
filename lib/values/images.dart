@@ -72,4 +72,24 @@ class ImagePath {
   static const String NOTIFYX_7 = "$projectsDir/notifyx/7.png";
   static const String NOTIFYX_8 = "$projectsDir/notifyx/6.png";
   static const String NOTIFYX_9 = "$projectsDir/notifyx/7.png";
+
+  //cititzensafety
+  static const String CITIZENSAFETY_COVER = "$projectsDir/cititzensafety/1.jpg";
+  static const String CITIZENSAFETY_SCREENS =
+      "$projectsDir/cititzensafety/1.jpg";
+  static const String CITIZENSAFETY_1 = "$projectsDir/cititzensafety/1.jpg";
+
+  //thesocialapp
+  static const String SOCIALAPP_COVER = "$projectsDir/thesocialapp/1.png";
+  static const String SOCIALAPP_SCREENS = "$projectsDir/thesocialapp/1.png";
+  static const String SOCIALAPP_1 = "$projectsDir/thesocialapp/1.png";
+  static const String SOCIALAPP_2 = "$projectsDir/thesocialapp/2.png";
+  static const String SOCIALAPP_3 = "$projectsDir/thesocialapp/3.png";
+  static const String SOCIALAPP_4 = "$projectsDir/thesocialapp/4.png";
+
+  //datingappauth
+  static const String DATINGAPP_COVER = "$projectsDir/datingappauth/1.png";
+  static const String DATINGAPP_SCREENS = "$projectsDir/datingappauth/1.png";
+  static const String DATINGAPP_1 = "$projectsDir/datingappauth/sample1.png";
+  static const String DATINGAPP_2 = "$projectsDir/datingappauth/sample2.png";
 }
