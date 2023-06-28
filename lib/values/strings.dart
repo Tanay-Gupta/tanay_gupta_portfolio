@@ -192,7 +192,16 @@ class StringConst {
 
   static const String Algorithmic_Toolbox_URL =
       "https://www.coursera.org/account/accomplishments/certificate/XGQZ9VQC567E";
-
+  static const String PROBLEMSOLVING_URL =
+      "https://www.hackerrank.com/certificates/f42325ecee09";
+  static const String JAVABASIC_URL =
+      "https://www.hackerrank.com/certificates/f73a36c057d1";
+  static const String OOPS_URL =
+      "https://www.linkedin.com/learning/certificates/4eff0d7d2d3da31edb84a1080f777c24e4f82b8e453d8c478419eeb1ac6d1848?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQgFfHLcySwyanMB7cEBw8g%3D%3D";
+  static const String WS_URL =
+      "https://www.linkedin.com/learning/certificates/89e8ef43cfd1b3e8125b1849b63be1331290b5f5becac9376560a0f4990ed32b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BQgFfHLcySwyanMB7cEBw8g%3D%3D";
+  static const String CN8_URL =
+      "https://drive.google.com/file/d/1k_OI-R9dRxb64RGtvlEo0OvV0loSl473/view?usp=sharing";
   //AwardedBy
   static const String HACKERRANK = "HackerRank";
   static const String LINKEDIN = "LinkedIn";
@@ -201,6 +210,11 @@ class StringConst {
 
   //CertificationType
   static const String Algorithmic_Toolbox = "Algorithmic Toolbox";
+  static const String PROBLEMSOLVING = "Problem Solving";
+  static const String JAVABASIC = "Java Basic";
+  static const String OOPS = "Object-Oriented Programming with Java";
+  static const String WS = "Web Scraping with Python";
+  static const String CN8 = "Secured AIR 𝟴 in Coding Ninjas Code Combat";
 
   //-------------------------------------------------------------------Experience-------------------------------
 

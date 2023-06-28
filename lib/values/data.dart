@@ -249,6 +249,41 @@ class Data {
       imageSize: 0.325,
       awardedBy: StringConst.COURSERA,
     ),
+    CertificationData(
+      title: StringConst.PROBLEMSOLVING,
+      url: StringConst.PROBLEMSOLVING_URL,
+      image: ImagePath.PROBLEMSOLVING_CERT,
+      imageSize: 0.325,
+      awardedBy: StringConst.HACKERRANK,
+    ),
+    CertificationData(
+      title: StringConst.JAVABASIC,
+      url: StringConst.JAVABASIC_URL,
+      image: ImagePath.JAVABASIC_CERT,
+      imageSize: 0.325,
+      awardedBy: StringConst.HACKERRANK,
+    ),
+    CertificationData(
+      title: StringConst.CN8,
+      url: StringConst.CN8_URL,
+      image: ImagePath.CN8_CERT,
+      imageSize: 0.325,
+      awardedBy: StringConst.CODINGNINJAS,
+    ),
+    CertificationData(
+      title: StringConst.OOPS,
+      url: StringConst.OOPS_URL,
+      image: ImagePath.OOPS_CERT,
+      imageSize: 0.325,
+      awardedBy: StringConst.LINKEDIN,
+    ),
+    CertificationData(
+      title: StringConst.WS,
+      url: StringConst.WS_URL,
+      image: ImagePath.WS_CERT,
+      imageSize: 0.325,
+      awardedBy: StringConst.LINKEDIN,
+    ),
   ];
 
   static List<ExperienceData> experienceData = [

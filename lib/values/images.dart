@@ -36,6 +36,11 @@ class ImagePath {
   static const String Algorithmic_Toolbox_CERT =
       "$imageDir/Algorithmic_Toolbox_cert.png";
 
+  static const String PROBLEMSOLVING_CERT = "$imageDir/problemsolving.png";
+  static const String JAVABASIC_CERT = "$imageDir/javabasic.png";
+  static const String OOPS_CERT = "$imageDir/oops.png";
+  static const String WS_CERT = "$imageDir/ws.png";
+  static const String CN8_CERT = "$imageDir/cn8.png";
   // ---------------------------------------------------------Projects-----------------------------------
   //Ailaan
   static const String AILAAN_APP_COVER = "$projectsDir/ailaan/7.png";
