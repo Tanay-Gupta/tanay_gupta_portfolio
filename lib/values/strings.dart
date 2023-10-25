@@ -218,6 +218,8 @@ class StringConst {
 
   //-------------------------------------------------------------------Experience-------------------------------
 
+
+ //Company 1
   static const String COMPANY_1 = "Google Developer Students Club";
   static const String COMPANY_1_URL = SITE_URL;
   static const String POSITION_1 = "Application Development Core Member";
@@ -230,6 +232,47 @@ class StringConst {
   static const String LOCATION_1 =
       "GL Bajaj Institute of Technology and Management";
   static const String DURATION_1 = "Aug 2021 - Sept 2022";
+
+//Company 1.5
+  static const String COMPANY_a1 = "Persistent Systems";
+  static const String COMPANY_a1_URL = SITE_URL;
+  static const String POSITION_a1 = "Apprenticeship";
+  static const String COMPANY_a1_ROLE_1 =
+      " Skills: Data Structures, Database Management System (DBMS), Java, Linux";
+ 
+  static const String LOCATION_a1 =
+      "Remote";
+  static const String DURATION_a1 = "Jun 2023 - Aug 2023";
+
+
+ //Company 2
+  static const String COMPANY_2 = "The Internet Folks";
+  static const String COMPANY_2_URL = SITE_URL;
+  static const String POSITION_2 = "Software Engineering Intern";
+  static const String COMPANY_2_ROLE_1 =
+      " Contributed to two live Flutter applications with a combined user base exceeding 20,000.";
+  static const String COMPANY_2_ROLE_2 =
+      " Collaborated effectively with cross-functional teams to introduce innovative features,resulting in increased user engagement and satisfaction";
+  static const String COMPANY_2_ROLE_3 =
+      " Conducted rigorous code reviews, offering valuable feedback to maintain top-notch code quality and efficiency.";
+  static const String LOCATION_2 =
+      "Bhopal";
+  static const String DURATION_2 = "July 2023 - Sept 2023";
+
+//Company 3
+  static const String COMPANY_3 = "MAQ Software";
+  static const String COMPANY_3_URL = SITE_URL;
+  static const String POSITION_3 = "Associate Software Engineer";
+  static const String COMPANY_3_ROLE_1 =
+      "  Gathered requirements, designed architectures, and developed applications using Azure, Power BI, and did data validation using SQL.";
+  static const String COMPANY_3_ROLE_2 =
+      "  Key contributions: Database design, coding, testing, and troubleshooting. Committed to ongoing skill improvement through training and certifications.";
+  
+  static const String LOCATION_3 =
+      "Hyderabad";
+  static const String DURATION_3 = "Sept 2023 - Present";
+
+
 
   //-------------------------------------Portfolio, Projects----------------------
 

@@ -1,4 +1,4 @@
-import 'dart:ui';
+
 
 import 'package:flutter/material.dart';
 import 'package:tanay_gupta_portfolio/values/values.dart';
@@ -28,7 +28,8 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: colorScheme.background,
       highlightColor: Colors.transparent,
-      accentColor: colorScheme.primary,
+      
+      // accentColor: colorScheme.primary,
       focusColor: AppColors.primaryColor,
       visualDensity: VisualDensity.adaptivePlatformDensity,
     );
